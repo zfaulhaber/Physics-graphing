@@ -12,9 +12,13 @@ command
 
 <h3>For Running on Windows</h3>
 First, install the matplotlib library with the 
-|pip3 install matplotlib| 
+
+pip3 install matplotlib
+
 command
 
 Then, run the program with 
-|python physics.py| 
+
+python physics.py
+
 while in the primary directory
