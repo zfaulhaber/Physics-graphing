@@ -1,0 +1,15 @@
+[package]
+name = "physics"
+version = "0.1.0"
+authors = ["Zmanf <43481361+Zmanf@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde-pickle = "0.5.0"
+serde = "*"
+
+[lib]
+name = "physics"
+crate-type = ["dylib"]
