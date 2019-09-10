@@ -4,7 +4,7 @@ import pickle
 import math
 from ctypes import cdll
 
-lib = cdll.LoadLibrary("target/release/physics.dll")
+lib = cdll.LoadLibrary("physics.dll")
 
 lib.do_all()
 
