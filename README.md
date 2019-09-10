@@ -1,5 +1,5 @@
-# Physics graphing of projectiles
-Graphs hight relatave to time with rust and python
+# Physics graphing
+Graphs projectile height relatave to time with rust and python
 
 This was created with the idea of being able to graph the hight of a projectile relatave to time.
 
