@@ -50,4 +50,5 @@ else:
 plt.xlabel("Distance (m)")
 plt.ylabel("Height (m)")
 plt.plot(x, y)
+plt.grid()
 plt.show()
