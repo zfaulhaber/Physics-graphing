@@ -29,18 +29,27 @@ for item in keys:
     elif a.startswith('t'):
         th = values[count]
         count += 1
-t = np.linspace(0, 15, 30)
+t = np.linspace(0, 100, 10000)
 vy = v * math.sin(th)
 y = h + vy*t + .5*g*t**2
+vx = v * math.cos(th)
+x = vx * t
+doubleth = th * 2
+r = ((v**2 * math.sin(doubleth)) / (g * -1)) + 5
 hmax = (v**2 * math.sin(th)**2) / (2 * (g * -1)) + 20
 plt.ylim(bottom=0)
-if hmax <= 100:
-    plt.ylim(top = 100)
-else:
-    plt.ylim(top=hmax)
 plt.xlim(left=0)
-plt.xlim(right=25)
-plt.xlabel("Time (s)")
+if h > 0:
+    plt.ylim(top=(hmax + 25))
+else:
+    plt.ylim(top=(hmax + 5))
+if h > 0:
+    plt.xlim(right=(r + 30))
+else:
+    plt.xlim(right=r)
+plt.xlabel("Distance (m)")
 plt.ylabel("Height (m)")
-plt.plot(t, y)
+plt.plot(x, y)
+plt.grid()
 plt.show()
+
