@@ -6,7 +6,7 @@ This was created with the idea of being able to graph the hight of a projectile 
 <h3>For Running On MacOSX</h3>
 First, install the matplotlib library with<br><br>|pip3 install matplotlib<br><br>
 
-Run the physics.py file that is in the <a href"https://github.com/Zmanf/Physics-graphing-of-projectile/tree/master/MacOSX">MacOSX Folder</a> with<br><br>|python3 physics.py<br><br>
+Run the physics.py file that is in the MacOSX Folder with<br><br>|python3 physics.py<br><br>
 
 <h3>For Running on Windows</h3>
 First, install the matplotlib library with<br><br>|pip3 install matplotlib<br><br>
